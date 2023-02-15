@@ -17,6 +17,8 @@
   <li>The iron triangle that consists of scope (features, functionality), time (the schedule), and the cost (budget resources). And the saying that "good work isn't cheap, cheap work isn't good."</li>
   <li>Added the auto prompt to my AWS CLI, used the command aws sts get-caller-identity to access my AWS info as a settings check. Also, we can look at lists of the shortcuts to learn to use them better.</li>
   <li>If stuck in VIM in the CLI, q to quit!</li>
+  <li>Make sure SVG's have an XML tag</li>
+  <li>The Well Architected Tool helps us walk through the solutions we have created to make sure that they fit with AWS standards and best practices. https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html</li>
 </ul>
 
 <h2>What I learned</h2>
@@ -40,5 +42,8 @@ AWS_ACCESS_KEY_ID=<br/>
 
 
 <h2>My Cruddur first draft architecture. Make with a combo of Lucid and my "napkin" art with a stylus.</h2>
-<img <img width="715" alt="cruddur" src="https://user-images.githubusercontent.com/98853049/218921009-ec082388-0b0e-43de-889d-25f328dc0ee6.png">
->
+<img width="625" alt="cruddur" src="https://user-images.githubusercontent.com/98853049/218921009-ec082388-0b0e-43de-889d-25f328dc0ee6.png">
+<h2>And here is my "napkin" diagram that I made while in the yard on this beautiful February day! </h2>
+<img width="625" src='https://user-images.githubusercontent.com/98853049/219192172-fe0cd055-036d-419c-8d7e-9adcf4ac780c.jpg'
+ >
+<h3>Thanks so much Cloud Camp for a great Week 0! I am going to go check off my to do list in the student portal and see if I can help anyone on Discord. Others, Andrew Brown included, helped me this week on Discord. It's a fabulous group of people!</h3>
