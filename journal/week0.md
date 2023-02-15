@@ -25,6 +25,7 @@
   <li>Top 5 Security Best Practices from Asish</li>
   <li>grep helps you search for things in Gitpod</li>
   <li>Our env datas persist in Gitpod.io/user/variables , check there for info after you have run gp env AWS_ACCESS_KEY_ID="" in the terminal</li>
+  <li>How to get the account id: aws sts get-caller-identity --query Account </li>
 </ul><br/>
 <p>Also, I'm sure the below lines of code will be useful!</p><br/>
 <p>gitpod /workspace $ export AWS_ACCESS_KEY_ID=""<br/>
