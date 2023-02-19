@@ -6,4 +6,34 @@ aws budgets create-budget \
 aws sns subscribe \
     --topic-arn "arn:aws:sns:us-east-1:513331746165:billing-alarm"\
     --protocol email \
-    --notification-endpoint thegirl033007@gmail.com
+    --notification-endpoint thegirl033007@gmail.com    
+
+why Containerization? Makes it accessible for others. Containerization cimplifies everything
+You get to use an env that a pro has up and running. Even with a simple python program, put 
+in a Docker file. Linuxserver.io has heaps of cont images and over time you can transition to 
+these instead of building everything yourself. Look at the images, the Docker files are high
+quality and follow best practices. 
+If Linuxserver doesn't have an image you need, you can use theirs as a basis to build your own.
+What is Docker Hub? A cont registry provided by Docker where you can host/share images. 
+When others want to use your image, they just pull it. Click through Docker Hub images and see
+With cont registries, there are lots to look at Docker Hub, OPI Open Cont Initiative. Docker Hub
+follows the standards of registry. 
+J Frog is another place to host and get images. 
+Artifacts are libraries that you can use for your Docker stuff. 
+
+Let's now write some Docker files. 
+Every command in a Docker file creates a layers. Images add on layers. 
+Cont use union file system. Becomes merged layers. 
+Layer at bottom that creates files, delete it in higher layer and it's gone!
+
+The host operating system is the op sys we are on. 
+The guest op sys is the cont
+Think of them as sep entities? Think about where the cont will work from?
+You put everything in a dir called /hello. You could either have command 
+change to /hello and run the app, or you can have it all run from where you are.
+Open a terminal and you're in the home dir. 
+ 
+workdir puts you in the entry point for your cont. 
+Docker cont is just basically another OS. The Linux kernel is shared. The OS is another
+variation of that. The  
+
